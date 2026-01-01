@@ -61,7 +61,7 @@
 }
 
 /* ===== HERO ===== */
-/* ===== Hero typography: business-card feel ===== */
+/* ===== Hero typography: pro feel ===== */
 #hero h1 {
   font-weight: 750;
   letter-spacing: -0.02em;
@@ -77,6 +77,14 @@
   opacity: 0.85;
   margin-bottom: 1.5rem;
 }
+
+/* Hero divider */
+.hero-divider {
+  width: 120px;
+  height: 1px;
+  background: rgba(33, 37, 41, 0.18);
+}
+
 
 
   /* ===== Social icon buttons (Hero) ===== */
