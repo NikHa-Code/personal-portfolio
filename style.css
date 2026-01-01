@@ -60,6 +60,23 @@
   border-radius: 0.35rem;
 }
 
+/* ===== Navbar polish: Typography, spacing & hover ===== */
+.site-nav .nav-link {
+   color: var(--text-muted-on-chrome);
+  font-weight: 600;
+  font-size: 0.98rem;
+
+  padding: 0.5rem 0.75rem;
+  border-radius: 0.5rem;
+}
+
+.site-nav .nav-link:hover,
+.site-nav .nav-link:focus {
+  color: var(--text-on-chrome);
+  background: rgba(0, 0, 0, 0.04);
+}
+
+
 /* ===== Anchor navigation polish ===== */
 html {
   scroll-behavior: smooth;
