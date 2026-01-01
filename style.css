@@ -1,0 +1,32 @@
+/* ===== Base ===== */
+:root {
+  --bg-chrome: #f1f3f5;            /* haalea harmaa */
+  --text-on-chrome: #212529;       /* lähes musta */
+  --text-muted-on-chrome: #495057; /* pehmeä harmaa */
+  --focus-ring: rgba(33, 37, 41, 0.25);
+}
+
+/* ===== Navbar ===== */
+.site-nav {
+  background-color: var(--bg-chrome);
+  border-bottom: 1px solid rgba(0, 0, 0, 0.08);
+}
+
+.site-nav .navbar-brand {
+  color: var(--text-on-chrome);
+}
+
+.site-nav .nav-link {
+  color: var(--text-muted-on-chrome);
+}
+
+.site-nav .nav-link:hover,
+.site-nav .nav-link:focus {
+  color: var(--text-on-chrome);
+}
+
+.site-nav .nav-link:focus-visible {
+  outline: 2px solid var(--focus-ring);
+  outline-offset: 3px;
+  border-radius: 0.35rem;
+}
