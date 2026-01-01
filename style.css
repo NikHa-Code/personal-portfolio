@@ -60,6 +60,26 @@
   border-radius: 0.35rem;
 }
 
+/* ===== Anchor navigation polish ===== */
+html {
+  scroll-behavior: smooth;
+}
+
+section,
+#hero,
+#projects,
+#about,
+#contact {
+  scroll-margin-top: 45px;
+}
+
+.site-nav .nav-link.active {
+  color: var(--text-on-chrome);
+  font-weight: 600;
+}
+
+
+
 /* ===== HERO ===== */
 /* ===== Hero typography: pro feel ===== */
 #hero h1 {
