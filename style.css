@@ -61,6 +61,43 @@
 }
 
 
+/* ===== Social icon buttons (Hero) ===== */
+.social-btn {
+  width: 50px;
+  height: 50px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+
+  border-radius: 999px;
+  border: 1px solid rgba(0, 0, 0, 0.10);
+  background: var(--bg-chrome);
+  color: var(--text-on-chrome);
+
+  text-decoration: none;
+  transition: transform 120ms ease, box-shadow 120ms ease, border-color 120ms ease, background-color 120ms ease;
+}
+
+.social-btn i {
+  font-size: 1.2rem;
+  line-height: 1;
+}
+
+.social-btn:hover {
+  transform: translateY(-1px);
+  background: #ffffff;
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.10);
+  border-color: rgba(0, 0, 0, 0.18);
+}
+
+.social-btn:focus-visible {
+  outline: 2px solid var(--focus-ring);
+  outline-offset: 3px;
+}
+
+
+
+
 /* ===== Footer ===== */
 .site-footer {
   background-color: var(--bg-chrome);
