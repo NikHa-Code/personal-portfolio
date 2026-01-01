@@ -58,3 +58,9 @@
 .site-footer .text-muted {
   color: var(--text-muted-on-chrome);
 }
+
+/* ===== Hero ===== */
+#hero {
+  background-color: #ffffff;
+}
+
