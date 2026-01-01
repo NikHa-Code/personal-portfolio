@@ -223,3 +223,81 @@ section,
 .project-card .btn {
   border-radius: 999px;
 }
+
+.project-thumb {
+  aspect-ratio: 16 / 10;
+  object-fit: cover;
+}
+
+
+/* ===== Project CTA button ===== */
+.btn-cta {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+
+  font-weight: 600;
+  font-size: 0.95rem;
+  line-height: 1;
+
+  padding: 0.55rem 0.9rem;
+  border-radius: 999px;
+
+  background: var(--bg-chrome);
+  border: 1px solid rgba(0, 0, 0, 0.12);
+  color: var(--text-on-chrome);
+  text-decoration: none;
+
+  box-shadow: 0 1px 2px rgba(0,0,0,0.06);
+  transition: transform 120ms ease, box-shadow 120ms ease, border-color 120ms ease;
+}
+
+.btn-cta i {
+  font-size: 1rem;
+}
+
+.btn-cta:hover,
+.btn-cta:focus {
+  transform: translateY(-1px);
+  background: #ffffff;
+  box-shadow: 0 8px 18px rgba(0,0,0,0.10);
+  border-color: rgba(0, 0, 0, 0.18);
+}
+
+.btn-cta:focus-visible {
+  outline: 2px solid var(--focus-ring);
+  outline-offset: 3px;
+}
+
+
+/* ===== Project title ===== */
+.project-title {
+  font-weight: 700;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  font-size: 1rem;
+  color: var(--text-on-chrome);
+  margin-bottom: 0.75rem;
+}
+
+/* ===== Project badges ===== */
+.project-card .badge.project-badge {
+  font-weight: 500;
+  font-size: 0.75rem;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+
+  color: var(--text-muted-on-chrome);
+  background: rgba(0, 0, 0, 0.02);
+  border-color: rgba(0, 0, 0, 0.10);
+}
+
+/* ===== Section titles ===== */
+.section-title {
+  font-weight: 800;
+  letter-spacing: -0.01em;
+  line-height: 1.2;
+  font-size: 1.75rem;
+  color: #212529;
+}
+
