@@ -60,8 +60,26 @@
   border-radius: 0.35rem;
 }
 
+/* ===== HERO ===== */
+/* ===== Hero typography: business-card feel ===== */
+#hero h1 {
+  font-weight: 750;
+  letter-spacing: -0.02em;
+  line-height: 1.05;
+}
 
-/* ===== Social icon buttons (Hero) ===== */
+#hero .hero-subtitle {
+  font-weight: 650;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  font-size: 0.95rem;
+  color: #212529;
+  opacity: 0.85;
+  margin-bottom: 1.5rem;
+}
+
+
+  /* ===== Social icon buttons (Hero) ===== */
 .social-btn {
   width: 50px;
   height: 50px;
@@ -99,6 +117,8 @@
   transform: translateY(0);
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.10);
 }
+
+
 
 
 
