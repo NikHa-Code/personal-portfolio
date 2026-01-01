@@ -7,6 +7,35 @@
 }
 
 /* ===== Navbar ===== */
+
+/* Brand “logo” */
+.site-brand {
+  font-weight: 650;
+  font-size: 1.25rem;
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+  line-height: 1;
+
+  padding: 0.35rem 0.55rem;
+  border-radius: 0.75rem;
+
+  background: rgba(255, 255, 255, 0.6);
+  border: 1px solid rgba(0, 0, 0, 0.08);
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.10);
+
+  text-decoration: none;
+}
+
+.site-brand:hover,
+.site-brand:focus {
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.14);
+}
+
+.site-brand:focus-visible {
+  outline: 2px solid var(--focus-ring);
+  outline-offset: 3px;
+}
+
 .site-nav {
   background-color: var(--bg-chrome);
   border-bottom: 1px solid rgba(0, 0, 0, 0.08);
