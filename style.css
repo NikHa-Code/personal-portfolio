@@ -1,8 +1,8 @@
 /* ===== Base ===== */
 :root {
-  --bg-chrome: #f1f3f5;            /* haalea harmaa */
-  --text-on-chrome: #212529;       /* lähes musta */
-  --text-muted-on-chrome: #495057; /* pehmeä harmaa */
+  --bg-chrome: #f1f3f5;          
+  --text-on-chrome: #212529;      
+  --text-muted-on-chrome: #495057; 
   --focus-ring: rgba(33, 37, 41, 0.25);
 }
 
@@ -29,4 +29,32 @@
   outline: 2px solid var(--focus-ring);
   outline-offset: 3px;
   border-radius: 0.35rem;
+}
+
+
+/* ===== Footer ===== */
+.site-footer {
+  background-color: var(--bg-chrome);
+  border-top: 1px solid rgba(0, 0, 0, 0.08);
+}
+
+.site-footer a {
+  color: var(--text-muted-on-chrome);
+  text-decoration: none;
+}
+
+.site-footer a:hover,
+.site-footer a:focus {
+  color: var(--text-on-chrome);
+  text-decoration: underline;
+}
+
+.site-footer a:focus-visible {
+  outline: 2px solid var(--focus-ring);
+  outline-offset: 3px;
+  border-radius: 0.35rem;
+}
+
+.site-footer .text-muted {
+  color: var(--text-muted-on-chrome);
 }
