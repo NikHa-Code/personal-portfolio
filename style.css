@@ -395,3 +395,20 @@ section,
   }
 }
 
+/* ===== Footer ===== */
+.site-footer .row {
+  align-items: center;
+}
+
+.site-footer a {
+  font-weight: 600;
+}
+
+@media (max-width: 767.98px) {
+  .site-footer .col-12 {
+    align-items: center;
+    text-align: center;
+  }
+}
+
+
