@@ -216,6 +216,8 @@ section,
 }
 
 /* ===== Project cards ===== */
+
+
 .project-card {
   border: 2px solid rgba(0, 0, 0, 0.08);
   border-radius: 1rem;
@@ -223,7 +225,7 @@ section,
 }
 
 .project-card .card-body {
-  padding: 1.25rem;
+  padding: 2.5rem 1.5rem;
 }
 
 .project-card .btn {
@@ -231,7 +233,7 @@ section,
 }
 
 .project-thumb {
-  aspect-ratio: 16 / 10;
+  aspect-ratio: 16 / 9;
   object-fit: cover;
 }
 
