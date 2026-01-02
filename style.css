@@ -16,6 +16,17 @@ body {
   text-rendering: optimizeLegibility;
 }
 
+/* ===== Global links ===== */
+a {
+  color: var(--text-on-chrome);
+  text-underline-offset: 0.18em;
+}
+
+a:hover,
+a:focus {
+  color: var(--text-on-chrome);
+}
+
 
 /* ===== Body text polish ===== */
 p {
