@@ -6,6 +6,17 @@
   --focus-ring: rgba(33, 37, 41, 0.25);
 }
 
+/* ===== Global typography ===== */
+body {
+  font-family: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial,
+    "Noto Sans", "Liberation Sans", sans-serif;
+  color: #212529;
+
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+}
+
+
 /* ===== Body text polish ===== */
 p {
   line-height: 1.65;
