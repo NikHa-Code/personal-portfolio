@@ -6,6 +6,12 @@
   --focus-ring: rgba(33, 37, 41, 0.25);
 }
 
+/* ===== Body text polish ===== */
+p {
+  line-height: 1.65;
+}
+
+
 /* ===== Sections: subtle rhythm ===== */
 .section {
   background: #ffffff;
