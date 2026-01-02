@@ -37,6 +37,7 @@ p {
 /* ===== Sections: subtle rhythm ===== */
 .section {
   background: #ffffff;
+  padding: 4rem 0;
 }
 
 .section-alt {
@@ -261,7 +262,6 @@ section,
 
 /* Projects section spacing + background */
 .projects-section {
-  padding: 4rem 0;
   background: #f8f9fa;
 }
 
