@@ -417,6 +417,12 @@ section,
   }
 }
 
+/* ===== Section separator ===== */
+.section-sep {
+  border-top: 1px solid rgba(0, 0, 0, 0.08);
+}
+
+
 /* ===== Footer ===== */
 .site-footer .row {
   align-items: center;
@@ -434,3 +440,7 @@ section,
 }
 
 
+/* ===== Readability ===== */
+.prose {
+  max-width: 65ch;
+}
