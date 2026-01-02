@@ -135,11 +135,6 @@ section,
   scroll-margin-top: 45px;
 }
 
-.site-nav .nav-link.active {
-  color: var(--text-on-chrome);
-  font-weight: 600;
-}
-
 
 
 /* ===== HERO ===== */
