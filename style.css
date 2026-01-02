@@ -27,6 +27,11 @@ a:focus {
   color: var(--text-on-chrome);
 }
 
+a:focus-visible {
+  outline: 2px solid var(--focus-ring);
+  outline-offset: 3px;
+  border-radius: 0.35rem;
+}
 
 /* ===== Body text polish ===== */
 p {
